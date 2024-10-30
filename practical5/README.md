@@ -4,9 +4,9 @@ This folder contains practical codes.
 
 ## Compile
 
-gcc -o scanf  scanf.c -lm
-gcc -o fib fib.c -lm
-gcc -o arctan arctan.c
+gcc -o scanf  scanf.c -lm<br>
+gcc -o fib fib.c -lm<br>
+gcc -o arctan arctan.c<br>
 
 ## Execute
 
