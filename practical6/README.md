@@ -6,7 +6,7 @@ This folder contains practical codes.
 
 gcc -c main.c <br>
 gcc c mm.c<br>
-The above both commands helps in creating an object file),br>C
+(The above both commands helps in creating an object file)<br>
 gcc -o matmultC main.o mm.o<br>
 
 ## Execute
