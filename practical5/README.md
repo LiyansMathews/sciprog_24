@@ -6,7 +6,7 @@ This folder contains practical codes.
 
 gcc -o scanf  scanf.c -lm<br>
 gcc -o fib fib.c -lm<br>
-gcc -o arctan arctan.c<br>
+gcc -o arctan arctan.c -lm<br>
 
 ## Execute
 
