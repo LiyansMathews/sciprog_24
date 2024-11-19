@@ -3,7 +3,7 @@ This folder contains practical codes.
 
 ### Compile Euclid.c and RandomEuclid.c
 
-gcc -o Euclid Euclid.c
+gcc -o Euclid Euclid.c<br>
 gcc -o RandomEuclid RandomEuclid.c
 
 ###Execute
