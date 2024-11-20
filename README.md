@@ -1,16 +1,9 @@
-Git Assignment Project
+# Git Assignment Project  
 
-Name : Liyans Mathews, Student Number: 24201531
-
-Introduction
-
-This is my repo for Scientific Programming Concepts
-
-# Git Assignment Project
-
-* Name : Liyans Mathews
-* Student Number: 24201531
+Name : Liyans Mathews<br>
+Student Number: 24201531
 
 ## Introduction
 
-This is my repo for Scientific Programming Concepts
+This is my repository for Scientific Programming Concepts comprising of all the practical assignments.
+
