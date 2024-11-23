@@ -1,5 +1,5 @@
 ## Practical 7
-This folder contains practical codes.
+This folder contains practical7 codes.
 
 ### Compile finde.c and pointers.c
 
@@ -8,7 +8,7 @@ gcc -o  pointers pointers.c<br>
 
 ### Execute
 
-./finde.c<br>
+./finde<br>
 
 Enter the required polynomial order<br>
 5<br>
@@ -19,6 +19,6 @@ Enter the required polynomial order<br>
 0.0083333333333333<br>
 e is etimated as 2.7166666667, with difference -1.615162e-003<br>
 
-./pointers.c<br>
+./pointers<br>
 
 11111
