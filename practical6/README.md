@@ -1,6 +1,6 @@
 # Practical 6
 
-This folder contains practical codes.
+This folder contains practical6 codes.
 
 ## Compile by creating an object of the file
 
@@ -27,7 +27,7 @@ gcc -o matmultC main.o mm.o<br>
   1  0 -1 -2<br>
   2  1  0 -1<br>
 
- This is matrix <br>C
+ This is matrix C<br>
 
   5  2 -1 -4<br>
   8  2 -4-10<br>
