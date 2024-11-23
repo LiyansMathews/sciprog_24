@@ -1,11 +1,11 @@
 # Practical 2
 
-This folder contains practical 2 .
+This folder contains practical 2 codes
 
 ## Compile
 
-* gcc Conversion.c -o ConversionC -lm
-* scc Sum.c -o SumC -lm
+* gcc -o ConversionC Conversion.c -lm
+* scc -o SumC Sum.c -lm
 
 ## Execute
 
