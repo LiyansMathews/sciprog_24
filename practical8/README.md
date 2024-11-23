@@ -1,14 +1,15 @@
-## Practical 8
-This folder contains practical codes.
+# Practical 8
+This folder contains practical8 codes.
 
-### Compile Euclid.c and RandomEuclid.c
+## Compile 
 
 gcc -o Euclid Euclid.c<br>
 gcc -o RandomEuclid RandomEuclid.c
 
-### Execute
+## Execute
 
 ./Euclid<br>
+
 Please enter two positive integers:<br>
 2 3<br>
 IterativeGCD(2,3)=1<br>
