@@ -29,7 +29,8 @@ The fib series is:<br>
 3<br>
 
 
-./arctan
+./arctan<br>
+
 The dif at x = -0.900000 is 0.0191068029<br>
 The dif at x = -0.890000 is 0.0149653952<br>
 The dif at x = -0.880000 is 0.0166015197<br>
