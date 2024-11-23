@@ -1,5 +1,5 @@
 # Practical 4
-This folder contains practical codes.
+This folder contains practical4 code.
 
 ## Compile
 gcc -o trap trap.c -lm
