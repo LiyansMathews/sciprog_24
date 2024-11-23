@@ -1,6 +1,6 @@
 # Practical 2
 
-This folder contains practical 2 ccode.
+This folder contains practical 2 .
 
 ## Compile
 
