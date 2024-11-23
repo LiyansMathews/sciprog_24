@@ -1,5 +1,5 @@
 ## Practical 7
-This folder contains practical codes.
+This folder contains practical7 codes.
 
 ### Compile finde.c and pointers.c
 
