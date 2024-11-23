@@ -1,12 +1,12 @@
 # Practical 7
 This folder contains practical7 codes.
 
-### Compile finde.c and pointers.c
+## Compile 
 
 gcc -o finde finde.c<br>
 gcc -o  pointers pointers.c<br> 
 
-### Execute
+## Execute
 
 ./finde<br>
 
