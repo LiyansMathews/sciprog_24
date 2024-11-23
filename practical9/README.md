@@ -1,12 +1,12 @@
-## Practical 9
+# Practical 9
 This folder contains practical codes.
 
-### Compile 
+## Compile 
 main_stub.c<br>
 gcc -o main main_stub.c<br>
 
 
-### Execute
+## Execute
 ./main<br>
 
 For magic_square.txt file<br>
