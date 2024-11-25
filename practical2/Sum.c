@@ -1,49 +1,27 @@
-#include <stdio.h>
-#include <math.h>
-#include <string.h>
-
 int main(void) {
-
 /* Declare variables */
-   int i,inum,tmp,numdigits;
-   float fnum;
-   char binnum[60];
+   int i;
+   float sum1, sum2, diff;
 
 
-/* Intialise 4-byte integer */
-   inum = 6;//33554431;
-/* Convert to 4-byte float */
-   fnum = (float) inum;
-
-
-/* Convert to binary number (string)*/
-   i = 0; tmp = inum;
-   while (tmp > 0) {
-     sprintf(&binnum[i],"%1d",tmp%2);
-     tmp = tmp/2;
-     i++;
+/* First sum */
+   sum1 = 0.0;
+   for (i=1; i<=1000; i++) {
+      sum1 = sum1 + 1.0/(float)i;
    }
 
-/* Terminate the string */
-   binnum[i] = '\0';
 
-/* Reverse the String binnum*/
-   int length, mid, j;
-   char aux;
-   length = strlen(binnum);
-   mid = length/2;
-   for(i = 0; i < mid; i++) {
-       j = length-i-1;
-       aux = binnum[i];
-       binnum[i] = binnum[j];
-       binnum[j] = aux;
-    }
+/* Second sum */
+   sum2 = 0.0;
+   for (i=1000; i>0; i--) {
+   	sum2 = sum2 + 1.0/(float)i;
+   }
+   printf(" Sum1=%f\n",sum1);
+   printf(" Sum2=%f\n",sum2);
 
-/* TODO: Complete the expression */
-/*   numdigits = ceil(...);
-   printf("The number of digits is %d\n",numdigits);
-*/
-   printf("inum=%d,  fnum=%f, inum in binary=%s\n",inum,fnum,binnum);
+/* Find the difference */
+   diff = sum1 - sum2;
 
-   return 0;
+   printf(" Difference between the two is %f\n",diff);
+
 }
